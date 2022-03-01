@@ -203,7 +203,7 @@
 }
 .feature-wrapper{
     min-height: 500px;
-    background-image: url('images/pexels-edmond-dantès-4347366.jpg');
+    background-image: url('../images/pexels-edmond-dantès-4347366.jpg');
 }
 .feature{
     background-color: rgba(241, 53, 65, 0.9);
