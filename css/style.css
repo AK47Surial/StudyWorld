@@ -38,8 +38,7 @@
 }
 
 .banner-wrapper{
-/*     background: url('images/pexels-andrea-piacquadio-3755760.jpg'); */
-    background: url('images/pexels-george-pak-7972671.jpg');
+    background: url('../images/pexels-andrea-piacquadio-3755760.jpg');
     min-height: 600px;
     background-size: 100% 100%;
 }
@@ -117,7 +116,7 @@
 }
 .banner2{
     min-height : 500px;
-    background: url('images/pexels-george-pak-7972671.jpg');
+    background: url('../images/pexels-george-pak-7972671.jpg');
     background-size: 100% 100%;
 }
 .banner2 .h3{
