@@ -22,6 +22,11 @@
     font-family: 'Rufina', serif;    
     font-weight: bold;
 }
+.navbar-toggler{
+    position: absolute;
+    top: 12px;
+    right: 30px
+}
 .navbar-nav li{
     padding: 0px 8px;
     text-transform: uppercase;
@@ -334,6 +339,7 @@
     .nav1{
         width : 100% !important;
         position: relative;
+        text-align: left !important;
     }
     .down{
         position: absolute;
@@ -341,7 +347,7 @@
         right : 2px;
     }
     .down ul{
-        margin-top: 7px;
+        margin-top: 65px;
     }
     .down ul li{
         background-color : #fff;
