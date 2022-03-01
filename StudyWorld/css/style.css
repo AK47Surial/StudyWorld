@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rufina&display=swap');
+*{
+    margin : 0px;
+    padding:  0px;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Rufina', serif;     */
+}
+.top button{
+    background-color: #f83b51;
+    color : #fff;
+    width : 8em;
+    height : 30px;
+    border: none;
+    margin-left: 132px;
+    font-size : 16px;
+}
+.nav1 span{
+    font-size: 24px;
+    color : #000;
+    text-transform: uppercase;
+    font-family: 'Rufina', serif;    
+    font-weight: bold;
+}
+.navbar-nav li{
+    padding: 0px 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar-nav li a{
+    color : #353535!important;
+    padding: 0px;
+
+}
+.navbar-nav li .active{
+    color : #fd2941 !important;
+    border-bottom: 2px solid;
+}
+
+.banner-wrapper{
+    background: url('/images/pexels-andrea-piacquadio-3755760.jpg');
+    min-height: 600px;
+    background-size: 100% 100%;
+}
+.banner{
+    min-height: 200px;
+    float: right;
+    font-weight: bold;
+    margin-top: 50px;
+    color : #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner .h1{
+    font-size: 48px ;
+    font-weight: bold;
+}
+.banner .h3{
+    color : #fd2941;
+    font-weight: bold;
+}
+
+.banner .btn{
+    min-width : 49%;
+    min-height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: #fd2941!important;
+    color:  #fff;
+}
+.banner .btn:first-of-type{
+    background: #000 !important;
+}
+.banner .btn:hover{
+    background: #fd2941!important;
+    color:  #fff;
+}
+.banner .btn:last-of-type:hover{
+    background: #000!important;
+    color:  #fff;   
+}
+.client p{
+    display: flex;
+    flex-direction: row;
+    color : #000;
+}
+.client p:before, .client p:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    color : #fd2941;
+}
+.client p:before {
+    margin-right: 10px
+}
+.client p:after {
+    margin-left: 10px
+}
+
+.client-wrapper{
+    /* width : 100%; */
+    /* background : red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.client-wrapper div{
+    min-width : 180px;
+    justify-content: center;
+}
+.client-wrapper div img{
+    height : 100px;
+    width : 100%;
+}
+.banner2{
+    min-height : 500px;
+    background: url('/images/pexels-george-pak-7972671.jpg');
+    background-size: 100% 100%;
+}
+.banner2 .h3{
+    color : #000;
+    font-weight: bold;
+}
+.banner2 .btn{
+    text-transform: uppercase;
+}
+.banner2 .btn:hover{
+    background: #fd2941!important;
+    color:  #fff;
+    border : 1px solid #fff;
+}
+
+.program p{
+    display: flex;
+    flex-direction: row;
+    color : #000;
+}
+.program p:before, .program p:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    color : #fd2941;
+}
+.program p:before {
+    margin-right: 10px
+}
+.program p:after {
+    margin-left: 10px
+}
+.procontent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.procontent p{
+    display: flex;
+    flex-direction: row;
+    color : #000;
+    font-size: 36px;
+}
+.procontent p:before, .procontent p:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    color : #fd2941;
+}
+.procontent p:before {
+    margin-right: 0px
+}
+.procontent p:after {
+    margin-left: 0px
+}
+
+.procontent :first-child .proitem{
+    background-color: silver;
+}
+.proitem{
+    width : 230px;
+    color: #000;
+}
+.proitem:hover{
+    background-color: silver;
+}
+.proitem .h6{
+    font-weight: bold;
+}
+.proitem .btn{
+    background-color: #fd2941;
+    width : 8em;
+    height : 30px;
+    padding: 0px;
+    color: #fff;
+}
+.proitem .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.feature-wrapper{
+    min-height: 500px;
+    background-image: url('/images/pexels-edmond-dantès-4347366.jpg');
+}
+.feature{
+    background-color: rgba(241, 53, 65, 0.9);
+}
+
+.feature p{
+    display: flex;
+    flex-direction: row;
+    color : #000;
+}
+.feature p:before, .feature p:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    color : #fff;
+}
+.feature p:before {
+    margin-right: 10px
+}
+.feature p:after {
+    margin-left: 10px
+}
+.feature-pic{
+    min-height: 400px;
+}
+.feature-pic img{
+    min-height : 400px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px;
+}
+.nav-tabs{
+    border: none !important;
+    border-color:  none !important;
+}
+.nav .nav-link{
+    background: none !important;
+    text-transform: uppercase;
+    color : #000;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 4px 10px;
+}
+.nav .nav-link:hover{
+    color : #fff;
+}
+.nav .active{
+    color : #fff !important; 
+    border-color: none !important;
+    border-bottom : 2px solid #fff !important;
+}
+.tab-pane{
+    text-align: justify;
+    padding-top: 10px;
+}
+.tab-pane .btn{
+    background: #000;
+    color : #fff;
+}
+.tab-pane .btn:hover{
+    background: #fd2941;
+    color : #fff; 
+}
+
+.student h1{
+    display: flex;
+    flex-direction: row;
+    color : #000;
+}
+.student h1:before, .student h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    color : #f83b51;
+}
+.student h1:before {
+    margin-right: 10px
+}
+.student h1:after {
+    margin-left: 10px
+}
+.student-content{
+    text-align: left !important;
+    color: #000;
+    font-weight: bold;
+}
+.student-content>div{
+    background-color: silver;
+}
+.touch-wrapper{
+    background :#f83b51;
+}
+.touch h1{
+    display: flex;
+    flex-direction: row;
+    color : #000;
+    margin-top : 15px;
+}
+.touch h1:before, .touch h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+    color : #fff;
+}
+.touch h1:before {
+    margin-right: 10px
+}
+.touch h1:after {
+    margin-left: 10px
+}
+.touch-wrapper .col-sm-6{
+    margin-top: 30px;
+}
+.footer{
+    background-color : #150103;
+    color : #fff;
+}
+
+@media (max-width:992px){
+    .top{
+        display: none;
+    }
+    .nav1{
+        width : 100% !important;
+        position: relative;
+    }
+    .down{
+        position: absolute;
+        top : 8px;
+        right : 2px;
+    }
+    .down ul{
+        margin-top: 7px;
+    }
+    .down ul li{
+        background-color : #fff;
+        width : 82vw;
+        line-height: 28px;
+        padding: 5px;
+    }
+}
